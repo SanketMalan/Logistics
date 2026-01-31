@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Marketplace | Logicstick India</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="scrolled">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">LogicStick<span class="dot">.</span></a>
+                <ul class="nav-links">
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="nav-item">Markets <i class="ri-arrow-down-s-line"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="market-ecommerce.html">E-Commerce</a>
+                            <a href="market-pharma.html">Pharma</a>
+                            <a href="market-automotive.html">Automotive</a>
+                            <a href="market-fmcg.html">FMCG & Retail</a>
+                            <a href="market-manufacturing.html">Manufacturing</a>
+                            <a href="market-agriculture.html">Agriculture</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="nav-item">Solutions <i class="ri-arrow-down-s-line"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="solution-order-management.html">Order Management - Penom</a>
+                            <a href="solution-distribution.html">Distribution & Fulfillment</a>
+                            <a href="solution-transportation.html">Transportation</a>
+                            <a href="solution-customs.html">Customs Brokerage</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="nav-item">About Us <i class="ri-arrow-down-s-line"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="company-overview.html">Company Overview</a>
+                            <a href="management-team.html">Management Team</a>
+                            <a href="locations.html">Locations</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="nav-item">Responsibilities <i class="ri-arrow-down-s-line"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="responsibility-sustainability.html">Environment Sustainability</a>
+                            <a href="responsibility-csr.html">Corporate Social Responsibility</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="nav-item active">Resources <i class="ri-arrow-down-s-line"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="resource-news.html">News & Announcements</a>
+                            <a href="resource-insights.html">Insights</a>
+                            <a href="resource-testimonials.html">Testimonials</a>
+                            <a href="resource-api.html">API Marketplace</a>
+                        </div>
+                    </li>
+                    <li><a href="index.html#careers" class="nav-item">Careers</a></li>
+                    <li><a href="index.html#contacts" class="nav-item">Contact Us</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="index.html#contact" class="btn btn-primary">Get Quote</a>
+                    <button class="menu-toggle"><i class="ri-menu-4-line"></i></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>API Marketplace</h1>
+            <p>Integrate Logicstick's power into your applications.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="overview-grid">
+                <div class="overview-text">
+                    <span class="badge">Developers</span>
+                    <h2>Build with Logicstick</h2>
+                    <p>Access our robust APIs to automate order creation, track shipments, and calculate rates. Everything you need to power your logistics workflow.</p>
+                    <ul class="feature-list">
+                        <li><i class="ri-code-s-slash-line"></i> RESTful API Documentation</li>
+                        <li><i class="ri-key-2-line"></i> Sandbox Environment</li>
+                        <li><i class="ri-server-line"></i> 99.9% Uptime SLA</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" style="margin-top: 20px;">View Documentation</a>
+                </div>
+                <div class="overview-image glass-card">
+                    <code class="code-block" style="display:block; padding:20px; background:rgba(0,0,0,0.8); color:#0f0; font-family:monospace; border-radius:10px;">
+                        // Create Order<br>
+                        POST /api/v1/orders<br>
+                        {<br>
+                        &nbsp;&nbsp;"origin": "BLR",<br>
+                        &nbsp;&nbsp;"destination": "DEL",<br>
+                        &nbsp;&nbsp;"weight": 10.5<br>
+                        }
+                    </code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo text-white">LogicStick<span class="dot">.</span></a>
+                <p>India's most trusted logistics partner.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
